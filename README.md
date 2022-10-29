@@ -1,2 +1,4 @@
 # Image-Resizer
-A web app to edit the size of an Image
+A web app to resize and compress Images
+
+https://imageresizeowo.azurewebsites.net/
