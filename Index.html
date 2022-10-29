@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- Coding By OlaOwo learned from CodingNepal-->
+
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Image Resizer JavaScript | OlaOwo</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="upload-box">
+            <input type="file" accept="image/*" hidden>
+            <img src="Images/upload-icon-6.png" alt="" class="imgclass">
+            <p>Browse File to Upload</p>
+        </div>
+        <div class="content">
+            <div class="column width">
+                <label for="WidthIm">Width</label>
+                <input type="number" id="WidthIm">
+            </div>
+            <div class="column height">
+                <label for="HeightIm">Height</label>
+                <input type="number" id="HeightIm">
+            </div>
+           
+            <div class="row checkboxes">
+                <div class="column ratio">
+                    <input type="checkbox" id="checkid" checked>
+                    <label for="checkid">Lock aspect ratio</label>
+                </div>
+                <div class="column quality">
+                    <input type="checkbox" id="quality">
+                    <label for="quality">Reduce Quality</label>
+                </div>
+               </div>
+               <button class="download-btn">Download Image</button>
+        </div>
+      
+    </div>
+</body>
+</html>
